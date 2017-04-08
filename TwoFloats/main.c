@@ -9,7 +9,16 @@
 #include <stdio.h>
 
 int main(int argc, const char * argv[]) {
-  // insert code here...
-  printf("Hello, World!\n");
+  float firstNum;
+  float secondNum;
+  double combinedNums;
+  
+  firstNum = 3.14;
+  secondNum = 82.25;
+  
+  combinedNums = firstNum + secondNum;
+  
+  printf("The combination of the numbers %f and %f is %f.\n", firstNum, secondNum, combinedNums);
+  
   return 0;
 }
